@@ -1,0 +1,6 @@
+cd meetupBQ
+bq ls meetup
+
+bq load --autodetect --source_format=CSV meetup.Estoque estoque.csv
+
+bq ls meetup

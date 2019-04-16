@@ -1,0 +1,23 @@
+{
+  "name": "bqmeetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson Engroff",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "axios": "^0.18.0",
+    "babel": "^6.23.0",
+    "polyfill": "^0.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
