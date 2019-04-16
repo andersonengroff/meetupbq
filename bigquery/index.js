@@ -2,7 +2,7 @@ const fileCredentials = './credentials/credentials.json'
 const { BigQuery } = require('@google-cloud/bigquery')
 
 const initBQ = {
-  projectId: 'mulequinho.com:api-project-28259644992',
+  projectId: 'put your project id here',
   keyFilename: fileCredentials,
 }
 
